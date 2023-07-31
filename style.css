@@ -1,7 +1,7 @@
 :root{
     --color-white:#FFFFFF;
     --color-charcol:#363F46;
-    --color-silver:#BCBCBD;
+    --color-silver:#F3F0EC;
     --color-gray:#6D8395;
     --color-red:#E5332A;
     --color-black:#030303;
@@ -9,6 +9,7 @@
     --color-burnt:#E4866B;
     --color-aero:#50BDE5;
     --color-chocolate:#814C01;
+    
 }
 *{
     margin: 0;
@@ -35,3 +36,78 @@ a{
 a:hover{
     color: var(--color-red);
 }
+/* -------middle css is here-------- */
+.middle_main{
+    position: relative;
+    padding: 30px 45px 100px;
+    text-align: center;
+    background: linear-gradient(90deg,#882e27,#6d869a 50%,#231641) #44287d;
+    border: 0px solid red;
+    
+}
+.middle_title1 h1{
+    font-size: 42px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: var(--color-white);
+    margin-bottom: 8px;
+    line-height: 46px;
+    margin: auto;
+    word-spacing: 0px;
+    padding-bottom: 15px;
+}
+.middle_title2 h2{
+    font-size: 22px;
+    max-width: 980px;
+    margin: auto auto 28px;
+    margin-bottom: 12px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+.middle_service{
+    border: 0px solid red;
+    width: 92%;
+    margin: auto;
+    background-color: var(--color-silver);
+    position: relative;
+    top: -80px;
+}
+.grid-item {
+    border: 1px solid var(--color-silver);
+    padding: 0px;
+    text-align: center;
+    background-color: var(--color-white);
+    width: 293px;
+    height: 241px;
+    box-shadow: hsla(0, 2%, 67%, 0.1) 0px 2px 10px 0px;
+  }
+.grid-item a{
+    color: #383e45;
+    position: relative;
+    text-decoration: none;
+}
+.grid-item a .tools__item__icon{
+    width: 50px;
+    height: 50px;
+    padding:30px 0px 0px 30px;
+}
+.grid-item a h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: var(--color-black);
+    margin-bottom: 9px;
+    padding: 50px 121px 0px 0px;
+}
+.grid-item a .tools__item__content{
+    letter-spacing: .5px;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--color-gray);
+    text-align: justify;
+    padding: 0px 20px 0px 25px;
+}
+
+
+/* -------middle css is closed -------- */
