@@ -1,0 +1,37 @@
+:root{
+    --color-white:#FFFFFF;
+    --color-charcol:#363F46;
+    --color-silver:#BCBCBD;
+    --color-gray:#6D8395;
+    --color-red:#E5332A;
+    --color-black:#030303;
+    --color-yellow:#FFB401;
+    --color-burnt:#E4866B;
+    --color-aero:#50BDE5;
+    --color-chocolate:#814C01;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;  
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+}
+a{
+    color: var(--color-black);
+}
+a:hover{
+    color: var(--color-red);
+}
